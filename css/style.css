@@ -1,1 +1,42 @@
-p {color: brown;}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-bg {
+  background-color: #000000;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box; /*para nao somar com o max-width*/
+  max-width: 1160px;
+  margin-left: auto;
+  margin-left: auto;
+}
+
+.header-menu {
+    display: flex;
+    gap: 20px;
+    
+}
+
+.header-menu a {
+    display: inline-block;
+    font-size: 18px;
+    padding: 16px 0px;
+    color: #ffffff;
+}
